@@ -3,7 +3,8 @@
 ## Intergation Ehealth Ukraine & OpenEMR (admin module)
 
 
-This DEMO implements the following functionality (taking into account the new V9-requirements "Order of the NSZU dated 04.08.2020 No. 187 On approval of technical requirements for MIS"):
+This DEMO implements the following functionality 
+(taking into account the new V9-requirements "Order of the NSZU dated 04.08.2020 No. 187 On approval of technical requirements for MIS"):
 
 ✓ registration and updating of legal data of medical institutions 3.1.2
 
