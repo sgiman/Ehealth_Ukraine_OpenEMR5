@@ -4,7 +4,7 @@
 
 
 This DEMO implements the following functionality 
-_(taking into account the new V9-requirements "Order of the NSZU dated 04.08.2020 No. 187 On approval of technical requirements for MIS"):_
+_(taking into account the new V9-requirements <br>"Order of the NSZU dated 04.08.2020 No. 187 On approval of technical requirements for MIS"):_
 
 ✓ registration and updating of legal data of medical institutions 3.1.2
 
