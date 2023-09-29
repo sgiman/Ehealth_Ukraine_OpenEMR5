@@ -1,0 +1,30 @@
+{
+	"name": "Філія №13",
+	"phones": [{
+		"type": "MOBILE",
+		"number": "+380677629553"
+	}],
+
+	"addresses": [{
+		"settlement": "КИЇВ",
+		"settlement_type": "CITY",
+		"settlement_id": "adaa4abf-f530-461c-bcbf-a0ac210d955b",
+		"zip": "04156",
+		"street_type": "STREET",
+		"street": "Саксаганського",
+		"building": "44",
+		"apartment": "0",
+		"country": "UA",
+		"type": "REGISTRATION",
+		"area": "М.КИЇВ"
+	}],
+
+	"location": {
+		"latitude": 50.359480346298696,
+		"longitude": 30.5859375
+	},
+
+	"type": "AMBULANT_CLINIC",
+	"email": "sgimancs@gmail.com",
+	"external_id": "7"
+}

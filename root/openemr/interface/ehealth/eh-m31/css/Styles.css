@@ -1,0 +1,228 @@
+#iit {
+	margin: 0 auto;
+	width: 680px;
+	text-align: left;
+	position:relative;
+	z-index: 10;
+}
+
+/*----------------------------------------------------------------------------*/
+
+#iit_line1 {
+	font-size:14px;
+	text-decoration:none;
+	font-weight:normal;
+	width:680px;
+	height:100%;
+	display:block;
+	background-size:100% 360px;
+	margin:0px;
+	top:0px;
+	padding:0px;
+	overflow:hidden;
+	z-index:100;
+	text-align:left;
+}
+
+#iit_line1 .headerwhite1 {
+	color:#FFFFFF;
+	font-size:28px;
+	line-height:28px;
+	text-decoration:none;
+	font-weight:bold;
+	padding:20px 0px 0px 0px;
+	text-align:left;
+}
+
+#iit_line1 output {
+	line-height: 16px;
+	display:inline-table;
+}
+
+#iit_line1 output ul {
+	padding-top: 0px;
+	margin: 0px;
+}
+
+#iit_line1 .styled-select1 select {
+	background: transparent;
+	width: 300px;
+	border: 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	overflow:hidden;
+}
+
+#iit_line1 .styled-select1 {
+	width: 300px;
+	height: 18px;
+	overflow: hidden;
+	padding:0px 0px 0px 0px;
+	border:1px solid;
+}
+
+div.SeparatorLine{
+	transform-origin: 0 100%;
+	height: 0px;
+	border-top: 1px solid #0C234B;
+	border-bottom: 1px solid #FFFFFF;
+	margin-top:10px;
+}
+
+div.SmoothGradient{
+	transform-origin: 0 100%;
+	height: 4px;
+	margin-bottom:10px;
+	background:linear-gradient(to bottom, rgba(255, 255, 255, 0.1), transparent);
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1), transparent);
+}
+
+href {
+	color: white;
+}
+
+.MainPageMenuContent {
+	background-color:#FFFFFF;
+	min-width:455px;
+	min-height:800px;
+	margin: 4px 0px 0px 0px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.MainPageMenuPanelSelected {
+	display:block;
+}
+
+.ImageInTextImageContainer {
+	float: left;
+}
+
+.TextInTextImageContainer {
+	display: block;
+	vertical-align:text-top;
+	line-height:normal;
+	padding-left: 18px;
+}
+
+.SubMenuContent {
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 1em;
+}
+
+.TextHeaderH3 {
+	font-size:18px;
+	font-weight:bold;
+	color:#0C234B;
+	margin:0px;
+	padding:10px 0px 0px 0px;
+}
+
+.TextLabel {
+	line-height: 16px;
+}
+
+.TextEdit {
+	width:99%;
+	margin-bottom: 1em;
+}
+
+.TextArea {
+	min-height:5em;
+	width:99%;
+	resize:vertical; 
+}
+
+.PasswordEdit {
+}
+/*----------------------------------------------------------------------------*/
+
+.FileDropZoneMessage {
+	padding: 15px 25px;
+	text-align:center;
+}
+
+.FileDropZoneBorder {
+	border: 2px dashed #0C234B;
+	border-radius: 5px;
+	color: #0C234B;
+	height: 145px;
+	margin:15px;
+}
+
+.FileDropZone {
+	margin-top: 3px;
+	border: 1px solid #0C234B;
+}
+
+/*----------------------------------------------------------------------------*/
+
+#iit_line1 #buttonitem {
+	pointer-events: none;
+	vertical-align:top;
+	text-align:center;
+	width:136px;
+	height:32px;
+	border:0px solid #FF0000;
+	overflow:hidden;
+	font-size:13px;
+	line-height:14px;
+	font-family:Arial,Tahoma,Helvetica;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+    #iit_line1 #buttonitem a {
+        display: block;
+        padding: 6px 7px 14px 5px;
+        color: #FFFFFF;
+        text-decoration: none;
+        background: url(/images/Button.png) no-repeat;
+        background-size: 100% 100%;
+    }
+
+        #iit_line1 #buttonitem a:hover {
+            padding: 6px 7px 14px 5px;
+            color: #FFFFFF;
+            text-decoration: none;
+            background: url(/images/ButtonHover.png) no-repeat;
+            background-size: 100% 100%;
+        }
+
+/*----------------------------------------------------------------------------*/
+
+
+.scroll-btn {
+	height: 30px;
+	width: 30px;
+	border: 2px solid #008fe2;
+	border-radius: 50%;
+	background-color: #008fe2;
+	position: fixed;
+	bottom: 4px;
+	right: 4px;
+	opacity: 0.5;
+	z-index: 9999;
+	cursor: pointer;
+	display: none;
+}
+
+.scroll-btn .scroll-btn-arrow {
+	height: 8px;
+	width: 8px;
+	border: 3px solid;
+	border-right: none;
+	border-top: none;
+	margin: 12px 9px;
+	-webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	transform: rotate(135deg);
+	color: white;
+}
+
+.notouch .scroll-btn:hover {
+	opacity: 0.8
+}

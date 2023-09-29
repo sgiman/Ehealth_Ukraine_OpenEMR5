@@ -1,0 +1,35 @@
+{
+  "name": "SCSMed КАРДІОЛОГІЯ",
+  "addresses": [
+    {
+      "type": "RESIDENCE",
+      "country": "UA",
+      "area": "М.КИЇВ",
+      "region": "ДАРНИЦЬКИЙ",
+      "settlement": "КИЇВ",
+      "settlement_type": "CITY",
+      "settlement_id": "adaa4abf-f530-461c-bcbf-a0ac210d955b",
+      "street_type": "STREET",
+      "street": "КОСМІЧНА",
+      "building": "1/10",
+      "apartment": "64",
+      "zip": "02192"
+    }
+  ],
+  "phones": [
+    {
+      "type": "MOBILE",
+      "number": "+380660409266"
+    }
+  ],
+  "email": "test123@gmail.com",
+  "type": "LICENSED_UNIT",
+  "external_id": "1030",
+  "working_hours": {
+    "mon": [["08.00","12.00"],["14.00","17.00"]],
+    "tue": [["08.00","12.00"],["14.00","17.00"]],
+    "wed": [["08.00","12.00"],["14.00","17.00"]],
+    "thu": [["08.00","12.00"],["14.00","17.00"]],
+    "fri": [["08.00","12.00"],["14.00","16.00"]]
+  }
+}

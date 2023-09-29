@@ -1,0 +1,82 @@
+{
+   "employee_request":{
+      "division_id":"ac78b141-9844-4049-b115-4093380a4dea",
+      "legal_entity_id":"30131cf9-836a-48a0-98dc-741ecb1d3cf7",
+      "position":"P86",
+      "start_date":"2003-11-09",
+      "end_date":"2020-11-16",
+      "status":"NEW",
+      "employee_type":"SPECIALIST",
+      "party":{
+         "first_name":"Андрій",
+         "last_name":"Горбатюк",
+         "second_name":"Леонідович",
+         "birth_date":"1971-07-07",
+         "gender":"MALE",
+         "no_tax_id":false,
+         "tax_id": "2084518214",
+         "email":"hobit23774@rvemold.com",
+         "documents":[
+            {
+               "type":"PASSPORT",
+               "number":"МC190512",
+               "issued_by":"Рокитнянським РВ ГУ МВС Київської області",
+               "issued_at":"2000-05-10"
+            }
+         ],
+         "phones":[
+            {
+               "type":"MOBILE",
+               "number":"+380665011123"
+            }
+         ],
+         "working_experience": 20,
+         "about_myself":"Закінчив всі можливі курси"
+      },
+      "specialist":{
+         "educations":[
+            {
+               "country":"UA",
+               "city":"Київ",
+               "institution_name":"Академія Богомольця",
+               "issued_date": "2020-02-28",
+               "diploma_number":"DK123123",
+               "degree":"MASTER",
+               "speciality":"Невролог"
+            }
+         ],
+         "qualifications":[
+            {
+               "type":"SPECIALIZATION",
+               "institution_name":"Академія Богомольця",
+               "speciality":"Неврологія",
+               "issued_date":"1992-11-02",
+               "certificate_number":"DK123534",
+               "valid_to":"2024-01-01",
+               "additional_info":"Тільки для тестування"
+            }
+         ],
+         "specialities":[
+            {
+               "speciality":"THERAPIST",
+               "speciality_officio":true,
+               "level":"FIRST",
+               "qualification_type":"AWARDING",
+               "attestation_name":"Академія Богомольця",
+               "attestation_date":"2017-02-28",
+               "valid_to_date":"2020-02-28",
+               "certificate_number":"АД063191"
+            }
+         ],
+         "science_degree":{
+            "country":"UA",
+            "city":"Київ",
+            "degree":"CANDIDATE_OF_SCIENCE",
+            "institution_name":"Академія Богомольця",
+            "diploma_number":"DD123567",
+            "speciality":"Неврологія",
+            "issued_date":"1992-08-21"
+         }
+      }
+   }
+}

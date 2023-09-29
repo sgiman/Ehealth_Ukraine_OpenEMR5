@@ -1,0 +1,33 @@
+{
+   "employee_request":{
+      "position":"P2",
+      "start_date":"2003-11-09",
+      "employee_type":"OWNER",
+      "party":{
+         "first_name":"ОЛЕНА",
+         "last_name":"ФЕДОРОВА",
+         "second_name":"ЄВГЕНІЇВНА",
+         "birth_date":"1973-10-01",
+         "gender":"FEMALE",
+         "no_tax_id":false,
+         "tax_id":"1988206582",
+         "email":"sgimancs@gmail.com",
+         "documents":[
+            {
+               "type":"PASSPORT",
+               "number":"СC190655",
+               "issued_by":"Дніпровським+РУГу+МВС+України",
+               "issued_at":"2000-04-01"
+            }
+         ],
+         "phones":[
+            {
+               "type":"MOBILE",
+               "number":"+380661234911"
+            }
+         ]
+      },
+      "status":"NEW",
+      "legal_entity_id":"30131cf9-836a-48a0-98dc-741ecb1d3cf7"
+   }
+}

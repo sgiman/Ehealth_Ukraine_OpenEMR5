@@ -1,0 +1,305 @@
+/*********************************
+    STYLE TEST E-HEALTH API
+**********************************/
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #004882; */
+}
+
+
+.box {
+  /* position: absolute; 
+  top: 50%;
+  left: 50%;
+  */
+    transform: translate(0%, 0%);
+	
+}
+
+.box select {
+  background-color: #0563af;
+  color: white;
+  padding: 12px;
+  width: 250px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+.box::before {
+  content: "\f13a";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+.box:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box select option {
+  padding: 30px;
+}
+
+
+
+#wrapper{
+    width: 100%; 
+    height: 100%; 
+}
+
+#wrapper:after{
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+#wrapper > div {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 25%;
+    min-height: 100%;
+}
+
+#one {
+    float: left;
+    /* background: #f9d5d5; */
+}
+
+#two {
+    float: left;
+    /* background: #ffb9a8; */
+}
+
+#three {
+    float: right;
+    /* background: #f9aa76; */
+}
+
+#four {
+    float: right;
+    /* background: #ffd18c; */
+}
+
+.column {
+    -webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    -webkit-column-rule: 1px solid #ccc;
+    -moz-column-rule: 1px solid #ccc;
+    column-rule: 1px solid #ccc;
+}
+  
+body { 
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.BorderBox {
+	/* border-style: solid;
+	/* border-style: dotted; */
+	/* border-style: dashed; */
+	border: 1px solid black;
+	padding: 10px;
+}
+
+/*--- COLOR TEXT ---*/
+
+.tred {
+    color: #c61414;
+}
+
+.tblue {
+    color: #0e65ab;
+}
+
+.tgreen {
+    color: #1a6d23;
+}
+
+.tbold {
+    font-weight: bold;
+}
+
+.message {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/*--- BUTTONS ---*/
+
+/*------------------ ehealth_red ------------------*/
+.ehealth_red {
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #ed3330;
+padding: 20px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+font-size: 16px;
+}
+
+.ehealth_red:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+/*------------------ ehealth_green ------------------*/
+.ehealth_green {
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #048812;
+padding: 20px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+font-size: 16px;
+}
+
+.ehealth_green:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+/*------------------ ehealth_blue ------------------*/
+.ehealth_blue {
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #0096b9;
+padding: 20px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+font-size: 16px;
+}
+
+.ehealth_blue:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+/*------------------ ehealth_viol ------------------*/
+.ehealth_grey {
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #888;;
+padding: 20px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+font-size: 16px;
+}
+
+.ehealth_grey:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+
+/*------------------ ehealth_f ------------------*/
+.ehealth_f {
+    border-radius: 4px;
+    background: linear-gradient(to right, #0e65ab, #56a6cc) !important;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 20px;
+    width: 200px;
+    transition-timing-function: all 0.4s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.ehealth_f span {
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.4s;
+ }
+
+.ehealth_f span:after {
+   content: '\00bb';
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   transition: 0.5s;
+ }
+
+.ehealth_f:hover span {
+   padding-right: 25px;
+ }
+.ehealth_f:hover span:after {
+   opacity: 1;
+   right: 0;
+ }
+/*-----------------------------------------------------------------------------------------*/
+ 
+ .WarpMain {
+	margin: 20px 40px 20px 40px;
+}
+
+/*--- COLUMNS ---*/ 
+#columns {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;  /* не поддерживается в CSS2 */
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#columns > div,
+#columns > noindex > div {
+    display: table-cell;
+    vertical-align: top;
+    width: auto;
+    box-sizing: border-box;  /* не поддерживается в CSS2 */
+}

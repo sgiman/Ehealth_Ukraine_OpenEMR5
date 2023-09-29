@@ -1,0 +1,40 @@
+{
+    "employee_request": {
+        "legal_entity_id": "not defined",
+        "status": "NEW",
+        "position": "P28",
+        "employee_type": "HR",
+        "start_date": "2019-01-01",
+        "end_date": "2024-02-01",
+
+        "party": {
+            "first_name": "Сергій",
+            "second_name": "Сулейманович",
+            "last_name": "Гасанов",
+            "gender": "MALE",
+            "birth_date": "1970-01-26",
+            "email": "sgimancs@gmail.com",
+            "no_tax_id": false,
+            "tax_id": "2084518214",
+
+            "documents": [
+                {
+                    "type": "PASSPORT",
+                    "number": "СМ374285",
+                    "issued_by": "Фастовський РОМВД Київська область",
+                    "issued_at": "2001-08-01"
+                }
+            ],
+
+            "phones": [
+                {
+                    "type": "MOBILE",
+                    "number": "+380660409266"
+                }
+            ],
+			
+            "working_experience": 20,
+            "about_myself": "ДПТИ, КПИ"
+        }
+    }
+}

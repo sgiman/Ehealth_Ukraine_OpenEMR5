@@ -1,0 +1,41 @@
+{
+   "meta":{
+      "code":200,
+      "type":"object"
+   },
+   "data":{
+      "employee_id":"6f28badc-281f-4347-b8fe-0bd21a8d1494",
+      "first_name":"ÎËÅÍÀ",
+      "last_name":"ÔÅÄÎĞÎÂÀ",
+      "second_name":"ªÂÃÅÍ²¯ÂÍÀ",
+      "tax_id":"1988206582",
+      "birth_date":"1963-10-01",
+      "gender":"FEMALE",
+      "email":"sgimancs@gmail.com",
+      "documents":[
+         {
+            "type":"PASSPORT",
+            "number":"ÑÍ780664",
+            "issued_by":"Äí³ïğîâñüêèì ĞÓÃó ÌÂÑ Óêğà¿íè",
+            "issued_at":"1998-04-21"
+         },
+         {
+            "type":"NATIONAL_ID",
+            "number":"KN38782678",
+            "issued_by":"Äí³ïğîâñüêèì ĞÓÃó ÌÂÑ Óêğà¿íè",
+            "issued_at":"2019-10-01"
+         }
+      ],
+      "phones":[
+         {
+            "type":"MOBILE",
+            "number":"+380669090789"
+         },
+         {
+            "type":"LAND_LINE",
+            "number":"+380444502787"
+         }
+      ],
+      "position":"P2"
+   }
+}

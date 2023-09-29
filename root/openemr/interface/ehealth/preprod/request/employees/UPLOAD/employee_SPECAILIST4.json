@@ -1,0 +1,82 @@
+{
+   "employee_request":{
+      "division_id":"ac78b141-9844-4049-b115-4093380a4dea",
+      "legal_entity_id":"30131cf9-836a-48a0-98dc-741ecb1d3cf7",
+      "position":"P93",
+      "start_date":"2003-11-09",
+      "end_date":"2020-11-16",
+      "status":"NEW",
+      "employee_type":"SPECIALIST",
+      "party":{
+         "first_name":"Карен",
+         "last_name":"Аванесов",
+         "second_name":"Аванесович",
+         "birth_date":"1965-05-10",
+         "gender":"MALE",
+         "no_tax_id":false,
+         "tax_id": "2084518214",
+         "email":"kiyixi4763@rvemold.com",
+         "documents":[
+            {
+               "type":"PASSPORT",
+               "number":"МК190523",
+               "issued_by":"Рокитнянським РВ ГУ МВС Київської області",
+               "issued_at":"2000-01-20"
+            }
+         ],
+         "phones":[
+            {
+               "type":"MOBILE",
+               "number":"+380503410123"
+            }
+         ],
+         "working_experience": 20,
+         "about_myself":"Закінчив всі можливі курси"
+      },
+      "specialist":{
+         "educations":[
+            {
+               "country":"UA",
+               "city":"Київ",
+               "institution_name":"Академія Богомольця",
+               "issued_date": "2020-02-28",
+               "diploma_number":"DC123555",
+               "degree":"MASTER",
+               "speciality":"Ортопед"
+            }
+         ],
+         "qualifications":[
+            {
+               "type":"SPECIALIZATION",
+               "institution_name":"Академія Богомольця",
+               "speciality":"ортопедія і травматологія",
+               "issued_date":"1992-10-10",
+               "certificate_number":"DK123512",
+               "valid_to":"2024-01-01",
+               "additional_info":"додаткова інофрмація"
+            }
+         ],
+         "specialities":[
+            {
+               "speciality":"THERAPIST",
+               "speciality_officio":true,
+               "level":"FIRST",
+               "qualification_type":"AWARDING",
+               "attestation_name":"Академія Богомольця",
+               "attestation_date":"2017-02-28",
+               "valid_to_date":"2020-02-28",
+               "certificate_number":"AB/211234"
+            }
+         ],
+         "science_degree":{
+            "country":"UA",
+            "city":"Київ",
+            "degree":"CANDIDATE_OF_SCIENCE",
+            "institution_name":"Академія Богомольця",
+            "diploma_number":"DD123567",
+            "speciality":"ортопедія і травматологія",
+            "issued_date":"1993-09-25"
+         }
+      }
+   }
+}

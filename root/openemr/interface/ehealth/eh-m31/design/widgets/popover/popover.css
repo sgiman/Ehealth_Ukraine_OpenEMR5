@@ -1,0 +1,78 @@
+/* Popovers */
+
+.popover {
+    z-index: 1049;
+    top: 0;
+    left: 0;
+    display: none;
+    min-width: 250px !important;
+    max-width:400px !important;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    
+}
+.popover .popover-content {
+    padding: 15px;
+}
+.display-block.popover {
+    box-shadow: 0 0 0 transparent;
+}
+.popover.top {
+    margin-top: -10px;
+}
+.popover.right {
+    margin-left: 10px;
+}
+.popover.bottom {
+    margin-top: 10px;
+}
+.popover.left {
+    margin-left: -10px;
+}
+.popover-title {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.popover-title:empty {
+    display: none;
+}
+
+.popover .nav-list,
+.popover .dropdown-menu {
+    margin: 0;
+    border: 0;
+}
+.display-block.popover {
+    float: none;
+    width: auto;
+    margin: 15px;
+}
+.fixed-header .popover {
+    position: fixed;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+
+.popover .arrow { position:absolute;width:0;height:0;z-index:9999; }
+
+.popover.top .arrow { top:-11px;left:50%;border-bottom:11px solid #DBE3EA;border-right:11px solid transparent;border-left:11px solid transparent; -webkit-transform: translate(-50%, 0);transform: translate(-50%, 0); }
+.popover.top .arrow:after { border-bottom:10px solid #fff;content:"";top:1px; border-right:10px solid transparent;border-left:10px solid transparent;width:0;height:0;left:50%;position:absolute;left:-10px;  }
+
+.popover.bottom .arrow { bottom:-11px;left:50%;border-top:11px solid #DBE3EA;border-right:11px solid transparent;border-left:11px solid transparent; }
+.popover.bottom .arrow:after { border-top:10px solid #fff;content:"";top:-11px; border-right:10px solid transparent;border-left:10px solid transparent;width:0;height:0;left:50%;position:absolute;left:-10px;  }
+
+.popover.right .arrow { top:60% !important;left:-11px;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:11px solid #DBE3EA;  -webkit-transform: translate(0, -50%);transform: translate(0, -50%); }
+.popover.right .arrow:after { border-left:-10px solid #fff;content:"";top:-10px; border-top:10px solid transparent;border-bottom:10px solid transparent;width:0;height:0;position:absolute;right:1px;  }
+
+.popover.left .arrow { top:60% !important;right:-11px;border-top:11px solid transparent;border-bottom:11px solid transparent;border-right:11px solid #DBE3EA;  -webkit-transform: translate(0, -50%);transform: translate(0, -50%); }
+.popover.left .arrow:after { border-left:10px solid #fff !important;content:"";top:-10px; border-top:10px solid transparent;border-bottom:10px solid transparent;width:0;height:0;position:absolute;right:-1px;  }

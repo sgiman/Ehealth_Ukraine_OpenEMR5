@@ -1,0 +1,35 @@
+{
+  "name": "ПП ІТАКА МЕД",
+  "addresses": [
+    {
+      "type": "RESIDENCE",
+      "country": "UA",
+      "area": "М.КИЇВ",
+      "region": "ДАРНИЦЬКИЙ",
+      "settlement": "КИЇВ",
+      "settlement_type": "CITY",
+      "settlement_id": "adaa4abf-f530-461c-bcbf-a0ac210d955b",
+      "street_type": "STREET",
+      "street": "Драгоманова",
+      "building": "46",
+      "apartment": "2",
+      "zip": "02010"
+    }
+  ],
+  "phones": [
+    {
+      "type": "MOBILE",
+      "number": "+380930341055"
+    }
+  ],
+  "email": "itaka123@gmail.com",
+  "type": "LICENSED_UNIT",
+  "external_id": "1050",
+  "working_hours": {
+    "mon": [["08.00","12.00"],["14.00","17.00"]],
+    "tue": [["08.00","12.00"],["14.00","17.00"]],
+    "wed": [["08.00","12.00"],["14.00","17.00"]],
+    "thu": [["08.00","12.00"],["14.00","17.00"]],
+    "fri": [["08.00","12.00"],["14.00","16.00"]]
+  }
+}

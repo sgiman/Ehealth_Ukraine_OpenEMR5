@@ -1,0 +1,82 @@
+{
+   "employee_request":{
+      "division_id":"40edf54b-f918-4c9e-b05e-c3225047413d",
+      "legal_entity_id":"30131cf9-836a-48a0-98dc-741ecb1d3cf7",
+      "position":"P3",
+      "start_date":"2017-03-02",
+      "end_date":"2018-03-02",
+      "status":"NEW",
+      "employee_type":"SPECIALIST",
+      "party":{
+         "first_name":"Семен",
+         "last_name":"Семенов",
+         "second_name":"Семенович",
+         "birth_date":"1991-08-19",
+         "gender":"MALE",
+         "no_tax_id":false,
+         "tax_id": "2084518214",
+         "email":"fijiti4552@ezeca.com",
+         "documents":[
+            {
+               "type":"PASSPORT",
+               "number":"АА120518",
+               "issued_by":"Рокитнянським РВ ГУ МВС Київської області",
+               "issued_at":"2000-01-20"
+            }
+         ],
+         "phones":[
+            {
+               "type":"MOBILE",
+               "number":"+380503410123"
+            }
+         ],
+         "working_experience": 17,
+         "about_myself":"Закінчив всі можливі курси"
+      },
+      "specialist":{
+         "educations":[
+            {
+               "country":"UA",
+               "city":"Київ",
+               "institution_name":"Академія Богомольця",
+               "issued_date": "2020-02-28",
+               "diploma_number":"DC123543",
+               "degree":"MASTER",
+               "speciality":"Терапевт"
+            }
+         ],
+         "qualifications":[
+            {
+               "type":"SPECIALIZATION",
+               "institution_name":"Академія Богомольця",
+               "speciality":"Педіатр",
+               "issued_date":"2020-01-01",
+               "certificate_number":"2017-01-01",
+               "valid_to":"2017-01-01",
+               "additional_info":"додаткова інофрмація"
+            }
+         ],
+         "specialities":[
+            {
+               "speciality":"THERAPIST",
+               "speciality_officio":true,
+               "level":"FIRST",
+               "qualification_type":"AWARDING",
+               "attestation_name":"Академія Богомольця",
+               "attestation_date":"2017-02-28",
+               "valid_to_date":"2020-02-28",
+               "certificate_number":"AB/21331"
+            }
+         ],
+         "science_degree":{
+            "country":"UA",
+            "city":"Київ",
+            "degree":"PHD",
+            "institution_name":"Академія Богомольця",
+            "diploma_number":"DD123543",
+            "speciality":"Терапевт",
+            "issued_date":"2020-01-01"
+         }
+      }
+   }
+}

@@ -1,0 +1,89 @@
+{
+   "employee_request":{
+      "legal_entity_id": "30131cf9-836a-48a0-98dc-741ecb1d3cf7",
+      "division_id": "c458f45c-bdf9-4397-856d-71afc1bc4457",
+      "position":"P7",
+      "start_date":"2020-01-16",
+      "end_date":"2024-03-02",
+      "status":"NEW",
+      "employee_type": "DOCTOR",
+
+      "party":{
+         "first_name":"Петро",
+         "last_name":"Іванов",
+         "second_name":"Миколайович",
+         "birth_date":"1991-08-19",
+         "gender":"MALE",
+         "no_tax_id":false,
+         "tax_id":"1988206582",
+         "email":"sgimancs@gmail.com",
+
+         "documents":[
+            {
+               "type":"PASSPORT",
+               "number":"АА120518",
+               "issued_by":"Рокитнянським РВ ГУ МВС Київської області",
+               "issued_at":"2017-02-28"
+            }
+         ],
+
+         "phones":[
+            {
+               "type":"MOBILE",
+               "number":"+380503410870"
+            }
+         ],
+         "working_experience":10,
+         "about_myself":"Закінчив всі можливі курси"
+      },
+
+      "doctor":{
+         "educations":[
+            {
+               "country":"UA",
+               "city":"Київ",
+               "institution_name":"Академія Богомольця",
+               "issued_date":"2017-02-28",
+               "diploma_number":"DD123543",
+               "degree":"MASTER",
+               "speciality":"Лікар загальної практики - сімейний лікар"
+            }
+         ],
+
+         "qualifications":[
+            {
+               "type":"SPECIALIZATION",
+               "institution_name":"Академія Богомольця",
+               "speciality":"Лікар загальної практики - сімейний лікар",
+               "issued_date":"2020-10-16",
+               "certificate_number":"35",
+               "valid_to":"2024-01-01",
+               "additional_info":"додаткова інофрмація"
+            }
+         ],
+
+         "specialities":[
+            {
+               "speciality":"THERAPIST",
+               "speciality_officio":true,
+               "level":"FIRST",
+               "qualification_type":"AWARDING",
+               "attestation_name":"Академія Богомольця",
+               "attestation_date":"2017-02-28",
+               "valid_to_date":"2024-02-28",
+               "certificate_number":"AB/21331"
+            }
+         ],
+
+         "science_degree":{
+            "country":"UA",
+            "city":"Київ",
+            "degree":"PHD",
+            "institution_name":"Академія Богомольця",
+            "diploma_number":"DD123543",
+            "speciality":"Педіатр",
+            "issued_date":"2017-01-01"
+         }
+      }
+   }
+}

@@ -1,0 +1,36 @@
+{
+   "employee_request":{
+      "status":"NEW",
+      "position":"P28",
+      "employee_type":"HR",
+      "start_date":"2019-01-01",
+      "end_date":"2024-02-01",
+      "legal_entity_id":"30131cf9-836a-48a0-98dc-741ecb1d3cf7",
+      "party":{
+         "first_name":"Сидор",
+         "second_name":"Сидоров",
+         "last_name":"Сидорович",
+         "gender":"MALE",
+         "birth_date":"1967-01-26",
+         "email":"sgiman2601@gmail.com",
+         "no_tax_id": false,
+         "tax_id": "2084518214",
+         "documents":[
+            {
+               "type":"PASSPORT",
+               "number":"СМ374285",
+               "issued_by":"Фастовський РОМВД Київська область",
+               "issued_at":"2001-08-01"
+            }
+         ],
+         "phones":[
+            {
+               "type":"MOBILE",
+               "number":"+380660409266"
+            }
+         ],
+         "working_experience":20,
+         "about_myself":"ДПТИ, КПИ"
+      }
+   }
+}
